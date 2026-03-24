@@ -24,9 +24,9 @@ A lightweight, single-file GitHub repository monitor designed as an ambient seco
 
 1. Download `repowatcher.html`
 2. Open it in any browser
-3. Type an `owner/repo` slug (e.g. `torvalds/linux`) and hit **LOAD**
+3. Type an `owner/repo` slug (e.g. `torvalds/linux`)
 
-That's it. No install, no build step, no server.
+That's it.
 
 ---
 
