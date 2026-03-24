@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Repository Monitor Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="theme-switcher">
+        <button id="toggle-theme">Switch to Dark Mode</button>
+    </div>
+    <h1>Repository Monitor Dashboard</h1>
+    <div id="stats">
+        <div class="stat-card"><h2>Stars</h2><p id="star-count">0</p></div>
+        <div class="stat-card"><h2>Forks</h2><p id="fork-count">0</p></div>
+        <div class="stat-card"><h2>Open Issues</h2><p id="issue-count">0</p></div>
+    </div>
+    <h2>Latest Commits</h2>
+    <ul id="commit-list"></ul>
+    <h2>Branches</h2>
+    <ul id="branch-list"></ul>
+    <h2>Open Issues</h2>
+    <ul id="issue-list"></ul>
+    <h2>Language Breakdown</h2>
+    <canvas id="language-chart"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
